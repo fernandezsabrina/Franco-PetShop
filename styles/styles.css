@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.headerImg {
+    height: 50vh;
+    background-image: url(/assets/backgroundPrinc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logoNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 2vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    
+    padding: 1vh 1vw;
+    border-radius: 1vh;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    color: brown;
+    text-align: center;
+    margin-right: 2vh;
+    background-color: rgba(255, 221, 108, 0.486);
+}
+
+nav a:hover {
+    font-weight: bold;
+    background-color:  rgba(212, 103, 14, 0.651);
+}
+
+.texts, h4, h6, label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+}
+
+
+
+h1 {
+    padding-top: 2vw;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(241, 160, 53);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.411);
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(241, 160, 53);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.411)
+}
+
+.homeText {
+    padding-left: 5%;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeText p {
+    font-size: 25px;
+    margin-bottom: 1vw;
+}
+
+.pets {
+    width: 30vw;
+}
+
+.petsPics {
+    display: flex;
+    flex-direction: column;
+}
+
+.centralDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+div iframe {
+    padding-top: -10%;
+    box-shadow: -15px 15px 2px #ff7b23ce;
+}
+
+/* formulario de contacto */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: 100vh;
+    background-image: url(/assets/fondoForm.jpg);
+    background-size: cover;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.185);;
+}
+
+.contactMap {
+    width: 300px;
+    height: 200px;
+}
+
+form button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    background-color:rgb(255, 136, 57);
+    width: 15%;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textRow {
+    width: 30vw;
+    padding-right: 50px;
+}
+
+.dataForm {
+    padding-top: 10px;
+}
+
+.inputForm {
+    width: 30vw;
+}
+
+textarea {
+    width: 90%;
+    resize: none !important; 
+}
+
+.textContact {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(104, 61, 6);
+    font-weight: bold;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(236, 169, 43, 0.486);
+}
+
+footer p {
+    margin-top: 1vw;
+}
+
+/* tarjetas productos */
+
+.contenedorTarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-image: url(/assets/fondoForm.jpg);
+    margin-top: 7%;
+    border-radius: 10px;
+    box-shadow: -15px 15px 5px rgba(0, 0, 0, 0.37);
+}
+
+#cardsItems {
+    padding: 5% 0% 5% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ultimasUnidades {
+    color: brown;
+    font-weight: bolder;
+}
+
+
+.botonCompra {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    background-color: rgba(187, 111, 11, 0.849);
+    color: white;
+    border: none;
+    width: 8vw;
+    border-radius: 10px;
+  }
+
+  .btnModal {
+      font-family: 'Poppins', sans-serif !important;
+      font-size: 15px !important;
+      margin-top: 2px;
+      background-color: rgba(102, 55, 17, 0.877) !important;
+      color: rgb(255, 209, 209) !important;
+      border: none !important;
+      width: 8vw !important;
+      border-radius: 10px !important;
+  }

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" id="contact">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop Franco</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class="logoNav">
+            <img class="logo" src="/assets/logo.png">
+            <nav>
+                <a href="/index.html">Inicio</a>
+                <a href="farmacia.html">Farmacia</a>
+                <a href="juguetes.html">Juguetes</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/backgroundPrinc.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/backgroundPrinc2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </header>
+    <section>
+        <h1>Contactanos</h1>
+        <div class="centralDiv">
+            <div class="homeText">
+                <form id="myForm">
+                    <div class="formColumn">
+                        <div class="dataForm">
+                            <label for="name">Nombre:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="name" id="name" class="inputForm" required/>
+                        </div>
+
+                        <div class="dataForm">
+                            <label for="lastname">Apellido:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="lastname" id="lastname" class="inputForm" required/>
+                        </div>
+                        <div class="dataForm">
+                            <label for="phone">Teléfono de contacto:</label>
+                        </div>
+                        <div>
+                            <input type="number" name="phone" id="phone" class="inputForm" required/>
+                        </div>
+
+                        <div class="dataForm">
+                            <label for="pets">Tenés animales? Contanos cuales!:</label>
+                            <input type="checkbox" value="perro" name="pets" id="pets">Perro
+                            <input type="checkbox" value="gato" name="pets" id="pets">Gato
+                            <input type="checkbox" value="otro" name="pets" id="pets">Otro
+                        </div>
+                        <div class="dataForm">
+                            <label for="coments">Dejanos tu comentario y nos contactaremos con vos a la
+                                brevedad!:
+                            </label>
+                        </div>
+
+                        <div>
+                            <textarea name="coments" rows="10" cols="40" placeholder="Comentarios..."></textarea>
+                        </div>
+                        <div>
+                            <button id="btn">Enviar</button>
+                        </div>
+                    </div>
+
+
+                    <div class="formRow">
+                        <div class="textRow">
+                            <h4 class="textContact">Recordá que también podés encontrarnos en nuestro local en
+                                Caballito, de lunes a sábados de 09:00 a 14:00 y de 17:00 a 21:00!</h4>
+                        </div>
+                        <div>
+                            <iframe class="contactMap"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.8420849167242!2d-58.430267130951925!3d-34.61214705646849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca429815227f%3A0x5d302e497c2cda87!2sR%C3%ADo%20de%20Janeiro%20300%2C%20C1405%20CCB%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1608658445631!5m2!1ses!2sar"
+                                width="800" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="petsPics">
+                <img class="pets" src="/assets/imgHolly.png">
+                <img class="pets" src="/assets/imgSelfie.png">
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p class="texts">Copyright 2021 | Sabrina Fernandez </p>
+        <img src="/assets/logoFirulais.png" width=70vw>
+        <p class="texts">contact@petshopfranco.com</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="/js/file.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
